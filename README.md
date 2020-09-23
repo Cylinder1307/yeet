@@ -1,2 +1,2 @@
-# yeet
-Simple python virus
+#Yeet
+##Do not run outside of a virtual machine.
