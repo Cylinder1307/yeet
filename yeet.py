@@ -33,6 +33,6 @@ def yeet():
         sys.exit()
     
     else:
-        sys.exit
+        sys.exit()
 
 yeet()
